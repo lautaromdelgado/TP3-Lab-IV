@@ -1,6 +1,8 @@
 /**
  * Modal para agregar un nuevo empleado
  */
+
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
 async function modalRegistrarEmpleado() {
   try {
     // Ocultar la modal si está abierta
@@ -38,6 +40,7 @@ async function modalRegistrarEmpleado() {
     console.error(error);
   }
 }
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
 
 /**
  * Función para enviar el formulario al backend
@@ -73,3 +76,5 @@ async function registrarEmpleado(event) {
     console.error("Error al enviar el formulario", error);
   }
 }
+
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)

@@ -1,3 +1,4 @@
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
 window.toastrOptions = {
   closeButton: true,
   debug: false,
@@ -15,3 +16,4 @@ window.toastrOptions = {
   showMethod: "fadeIn",
   hideMethod: "fadeOut",
 };
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)

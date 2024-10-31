@@ -1,6 +1,7 @@
 /**
  * Función para mostrar la modal de detalles del empleado
  */
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
 async function verDetallesEmpleado(idEmpleado) {
   try {
     // Ocultar la modal si está abierta
@@ -39,7 +40,7 @@ async function verDetallesEmpleado(idEmpleado) {
     console.error(error);
   }
 }
-
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
 /**
  * Función para cargar y mostrar los detalles del empleado en la modal
  */
@@ -65,7 +66,7 @@ async function cargarDetalleEmpleado(idEmpleado) {
       const ulDetalleEmpleado = document.querySelector(
         "#detalleEmpleadoContenido ul"
       );
-
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
       ulDetalleEmpleado.innerHTML = ` 
         <li class="list-group-item"><b>Nombre:</b> 
           ${nombre ? nombre : "No disponible"}
@@ -95,7 +96,7 @@ async function cargarDetalleEmpleado(idEmpleado) {
     alert("Hubo un problema al cargar los detalles del empleado");
   }
 }
-
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
 // Función para verificar la existencia de una imagen
 async function verificarExistenciaImagen(url) {
   try {
@@ -106,3 +107,4 @@ async function verificarExistenciaImagen(url) {
     return false;
   }
 }
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)

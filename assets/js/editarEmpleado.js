@@ -1,6 +1,7 @@
 /**
  * Función para mostrar la modal de editar el empleado
  */
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
 async function editarEmpleado(idEmpleado) {
   try {
     // Ocultar la modal si está abierta
@@ -37,7 +38,7 @@ async function editarEmpleado(idEmpleado) {
     console.error(error);
   }
 }
-
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
 /**
  * Función buscar información del empleado seleccionado y cargarla en la modal
  */
@@ -56,7 +57,7 @@ async function cargarDatosEmpleadoEditar(idEmpleado) {
       document.querySelector("#edad").value = edad;
       document.querySelector("#cedula").value = cedula;
       document.querySelector("#telefono").value = telefono;
-
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
       // Seleccionar el sexo correspondiente
       seleccionarSexo(sexo);
 
@@ -78,7 +79,7 @@ async function cargarDatosEmpleadoEditar(idEmpleado) {
     alert("Hubo un problema al cargar los detalles del empleado");
   }
 }
-
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
 /**
  * Función para seleccionar el sexo del empleado de acuedo al sexo actual
  */
@@ -94,7 +95,7 @@ function seleccionarSexo(sexoEmpleado) {
     radioFemenino.checked = true;
   }
 }
-
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
 /**
  * Función para seleccionar el cargo del empleado de acuedo al cargo actual
  */
@@ -139,3 +140,4 @@ async function actualizarEmpleado(event) {
     console.error("Error al enviar el formulario", error);
   }
 }
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)

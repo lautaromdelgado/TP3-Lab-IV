@@ -1,3 +1,5 @@
+<!-- Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado) -->
+
 <div class="table-responsive">
     <table class="table table-hover" id="table_empleados">
         <thead>
@@ -47,3 +49,5 @@
         </tbody>
     </table>
 </div>
+
+<!-- Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado) -->

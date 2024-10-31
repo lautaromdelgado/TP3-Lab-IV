@@ -1,4 +1,5 @@
 // Define la función globalmente adjuntándola al objeto window
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
 window.actualizarEmpleadoEdit = async function (idEmpleado) {
   try {
     const response = await axios.get(
@@ -38,7 +39,7 @@ window.actualizarEmpleadoEdit = async function (idEmpleado) {
             </td>
           </tr>
         `;
-
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
       // Actualizar el contenido HTML de la tabla
       tr.innerHTML = tablaHTML;
     }
@@ -46,3 +47,4 @@ window.actualizarEmpleadoEdit = async function (idEmpleado) {
     console.error("Error al obtener la información del empleado", error);
   }
 };
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)

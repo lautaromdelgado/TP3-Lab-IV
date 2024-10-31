@@ -1,6 +1,7 @@
 /**
  * Modal para confirmar la eliminación de un empleado
  */
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
 async function cargarModalConfirmacion() {
   try {
     const existingModal = document.getElementById("editarEmpleadoModal");
@@ -36,7 +37,7 @@ async function cargarModalConfirmacion() {
     console.error(error);
   }
 }
-
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
 /**
  * Función para eliminar un empleado desde la modal
  */
@@ -94,3 +95,4 @@ async function eliminarEmpleado(idEmpleado, avatarEmpleado) {
     alert("Hubo un problema al cargar la modal de confirmación");
   }
 }
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)

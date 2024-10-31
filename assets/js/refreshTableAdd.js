@@ -1,4 +1,5 @@
 // Define la función globalmente adjuntándola al objeto window
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
 window.insertEmpleadoTable = async function () {
   try {
     const response = await axios.get(`acciones/getUltimoEmpleado.php`);
@@ -35,7 +36,7 @@ window.insertEmpleadoTable = async function () {
       }')" class="btn btn-danger"><i class="bi bi-trash"></i></a>
         </td>
       `;
-
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
       // Insertar el nuevo elemento al final de la tabla
       tableBody.appendChild(tr);
     }
@@ -43,3 +44,4 @@ window.insertEmpleadoTable = async function () {
     console.error("Error al obtener la información del empleado", error);
   }
 };
+// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)

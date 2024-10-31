@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="es">
 
+<!-- Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado) -->
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,6 +54,7 @@
         </div>
     </div>
 
+    <!-- Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado) -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
@@ -80,3 +83,5 @@
 </body>
 
 </html>
+
+<!-- Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado) -->
