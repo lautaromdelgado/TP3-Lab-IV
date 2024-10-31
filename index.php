@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es">
 
-<!-- Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado) -->
+<!-- Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado) -->
 
 <head>
     <meta charset="utf-8">
@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/2.0.2/css/dataTables.bootstrap5.css">
 
 
-    <!-- Libreria para alertas ----->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
@@ -54,7 +53,7 @@
         </div>
     </div>
 
-    <!-- Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado) -->
+    <!-- Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado) -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
@@ -66,7 +65,6 @@
     <script src="assets/js/refreshTableEdit.js"></script>
     <script src="assets/js/alertas.js"></script>
 
-    <!-------------------------Librería  datatable para la tabla -------------------------->
     <script src="https://cdn.datatables.net/2.0.2/js/dataTables.js"></script>
     <script src="https://cdn.datatables.net/2.0.2/js/dataTables.bootstrap5.js"></script>
     <script>
@@ -84,4 +82,4 @@
 
 </html>
 
-<!-- Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado) -->
+<!-- Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado) -->

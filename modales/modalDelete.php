@@ -1,6 +1,5 @@
-<!-- Modal para confirmación de eliminación -->
-     <!-- Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado) -->
-      
+     <!-- Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/(Lautaro Delgado) -->
+
 <div class="modal fade" id="confirmModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -19,4 +18,4 @@
     </div>
 </div>
 
-    <!-- Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado) -->
+    <!-- Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado) -->

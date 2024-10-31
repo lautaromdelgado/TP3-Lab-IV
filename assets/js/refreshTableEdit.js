@@ -1,12 +1,11 @@
-// Define la función globalmente adjuntándola al objeto window
-// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
+// Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado)
 window.actualizarEmpleadoEdit = async function (idEmpleado) {
   try {
     const response = await axios.get(
       `acciones/getEmpleado.php?id=${idEmpleado}`
     );
     if (response.status === 200) {
-      const infoEmpleado = response.data; // Obtener los datos del empleado desde la respuesta
+      const infoEmpleado = response.data;
 
       let tr = document.querySelector(`#empleado_${idEmpleado}`);
       let tablaHTML = "";
@@ -39,12 +38,11 @@ window.actualizarEmpleadoEdit = async function (idEmpleado) {
             </td>
           </tr>
         `;
-// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
-      // Actualizar el contenido HTML de la tabla
+// Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado)
       tr.innerHTML = tablaHTML;
     }
   } catch (error) {
     console.error("Error al obtener la información del empleado", error);
   }
 };
-// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
+// Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado)

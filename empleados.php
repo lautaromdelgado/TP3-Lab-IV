@@ -1,4 +1,4 @@
-<!-- Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado) -->
+<!-- Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado) -->
 
 <div class="table-responsive">
     <table class="table table-hover" id="table_empleados">
@@ -50,4 +50,4 @@
     </table>
 </div>
 
-<!-- Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado) -->
+<!-- Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado) -->

@@ -1,3 +1,5 @@
+-- DESARROLLADO POR https://www.linkedin.com/in/lautaromdelgado/ "Lautaro Delgado"
+
 CREATE TABLE `tbl_empleados` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(100) NOT NULL,
@@ -10,7 +12,7 @@ CREATE TABLE `tbl_empleados` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-
+-- Desarrollado por https://www.linkedin.com/in/lautaromdelgado/ "Lautaro Delgado"
 
 INSERT INTO `tbl_empleados` (`id`, `nombre`, `edad`, `cedula`, `sexo`, `telefono`, `cargo`, `avatar`)
 VALUES
@@ -20,3 +22,5 @@ VALUES
 	(7,'Camilo',30,'444433','Masculino','333434','Contador','daea327347.jpg'),
 	(8,'Fabio',49,'434343','Masculino','4444443','Secretario','dd12c93c0a.png'),
 	(9,'Brenda Cataleya',18,'111212','Masculino','5565656','Desarrollador Web','6a712f30fc.png');
+
+  -- DESARROLLADO POR: https://www.linkedin.com/in/lautaromdelgado/ "Lautaro Delgado"

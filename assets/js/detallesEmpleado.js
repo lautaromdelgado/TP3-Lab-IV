@@ -1,35 +1,26 @@
-/**
- * Función para mostrar la modal de detalles del empleado
- */
-// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
+// Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado)
 async function verDetallesEmpleado(idEmpleado) {
   try {
-    // Ocultar la modal si está abierta
     const existingModal = document.getElementById("detalleEmpleadoModal");
     if (existingModal) {
       const modal = bootstrap.Modal.getInstance(existingModal);
       if (modal) {
         modal.hide();
       }
-      existingModal.remove(); // Eliminar la modal existente
+      existingModal.remove();
     }
 
-    // Buscar la Modal de Detalles
     const response = await fetch("modales/modalDetalles.php");
     if (!response.ok) {
       throw new Error("Error al cargar la modal de detalles del empleado");
     }
-    // response.text() es un método en programación que se utiliza para obtener el contenido de texto de una respuesta HTTP
     const modalHTML = await response.text();
 
-    // Crear un elemento div para almacenar el contenido de la modal
     const modalContainer = document.createElement("div");
     modalContainer.innerHTML = modalHTML;
 
-    // Agregar la modal al documento actual
     document.body.appendChild(modalContainer);
 
-    // Mostrar la modal
     const myModal = new bootstrap.Modal(
       modalContainer.querySelector("#detalleEmpleadoModal")
     );
@@ -40,10 +31,7 @@ async function verDetallesEmpleado(idEmpleado) {
     console.error(error);
   }
 }
-// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
-/**
- * Función para cargar y mostrar los detalles del empleado en la modal
- */
+// Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado)
 async function cargarDetalleEmpleado(idEmpleado) {
   try {
     const response = await axios.get(
@@ -61,12 +49,10 @@ async function cargarDetalleEmpleado(idEmpleado) {
         ? `<img src="${avatarURL}" alt="Avatar" style="width: 100px; height: 100px; display:block;">`
         : "No disponible";
 
-      // Limpiar el contenido existente de la lista ul
-
       const ulDetalleEmpleado = document.querySelector(
         "#detalleEmpleadoContenido ul"
       );
-// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
+// Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado)
       ulDetalleEmpleado.innerHTML = ` 
         <li class="list-group-item"><b>Nombre:</b> 
           ${nombre ? nombre : "No disponible"}
@@ -96,8 +82,7 @@ async function cargarDetalleEmpleado(idEmpleado) {
     alert("Hubo un problema al cargar los detalles del empleado");
   }
 }
-// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
-// Función para verificar la existencia de una imagen
+// Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado)
 async function verificarExistenciaImagen(url) {
   try {
     const response = await fetch(url, { method: "HEAD" });
@@ -107,4 +92,4 @@ async function verificarExistenciaImagen(url) {
     return false;
   }
 }
-// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
+// Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado)

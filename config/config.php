@@ -1,4 +1,4 @@
-<!-- Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado) -->
+<!-- Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado) -->
 
 <?php
 $host = "mysql-lautaromdelgado.alwaysdata.net";
@@ -12,4 +12,4 @@ if ($conexion->connect_error) {
     die("Error de conexión: " . $conexion->connect_error);
 }
 
-// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
+// Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado)

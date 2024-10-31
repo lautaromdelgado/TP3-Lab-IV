@@ -1,10 +1,9 @@
-// Define la función globalmente adjuntándola al objeto window
-// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
+// Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado)
 window.insertEmpleadoTable = async function () {
   try {
     const response = await axios.get(`acciones/getUltimoEmpleado.php`);
     if (response.status === 200) {
-      const infoEmpleado = response.data; // Obtener los datos del empleado desde la respuesta
+      const infoEmpleado = response.data;
       let tableBody = document.querySelector("#table_empleados tbody");
 
       let tr = document.createElement("tr");
@@ -36,12 +35,11 @@ window.insertEmpleadoTable = async function () {
       }')" class="btn btn-danger"><i class="bi bi-trash"></i></a>
         </td>
       `;
-// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
-      // Insertar el nuevo elemento al final de la tabla
+// Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado)
       tableBody.appendChild(tr);
     }
   } catch (error) {
     console.error("Error al obtener la información del empleado", error);
   }
 };
-// Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado)
+// Desarrollador por: hhttps://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado)

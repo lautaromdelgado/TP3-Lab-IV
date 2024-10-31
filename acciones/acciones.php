@@ -1,8 +1,5 @@
 <?php
-/*
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-*/
+// Desarrollado por https://www.linkedin.com/in/lautaromdelgado/ "Lautaro Delgado"
 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -25,11 +22,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $extension = strtolower(pathinfo($nombreArchivo, PATHINFO_EXTENSION));
 
-        // Generar un nombre único y seguro para el archivo
+// Desarrollado por https://www.linkedin.com/in/lautaromdelgado/ "Lautaro Delgado"
         $nombreArchivo = substr(md5(uniqid(rand())), 0, 10) . "." . $extension;
         $rutaDestino = $dirLocal . '/' . $nombreArchivo;
 
-        // Mover el archivo a la ubicación deseada
+// Desarrollado por https://www.linkedin.com/in/lautaromdelgado/ "Lautaro Delgado"
         if (move_uploaded_file($archivoTemporal, $rutaDestino)) {
 
             $sql = "INSERT INTO $tbl_empleados (nombre, edad, cedula, sexo, telefono, cargo, avatar) 
@@ -48,9 +45,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 
-/**
- * Función para obtener todos los empleados 
- */
+// Desarrollado por https://www.linkedin.com/in/lautaromdelgado/ "Lautaro Delgado"
 
 function obtenerEmpleados($conexion)
 {

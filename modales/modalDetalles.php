@@ -1,6 +1,6 @@
 <!-- Modal para mostrar los detalles del empleado -->
 
-    <!-- Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado) -->
+    <!-- Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado) -->
 <div class="modal fade" id="detalleEmpleadoModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -8,7 +8,7 @@
                 <h5 class="modal-title titulo_modal">Detalles del empleado</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-    <!-- Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado) -->
+    <!-- Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado) -->
             <div class="modal-body">
                 <div id="detalleEmpleadoContenido">
                     <ul class="list-group list-group-flush"></ul>
@@ -17,4 +17,4 @@
         </div>
     </div>
 </div>
-    <!-- Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado) -->
+    <!-- Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado) -->

@@ -1,4 +1,4 @@
-    <!-- Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado) -->
+    <!-- Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado) -->
 <div class="modal fade" id="editarEmpleadoModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -28,7 +28,7 @@
                                     } ?>
                                 </select>
                             </div>
-    <!-- Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado) -->
+    <!-- Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado) -->
                             <div class="col-md-6">
                                 <label class="form-label">Sexo</label>
                                 <div class="form-check">
@@ -45,7 +45,7 @@
                                 </div>
                             </div>
                         </div>
-    <!-- Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado) -->
+    <!-- Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado) -->
                         <div class="mb-3">
                             <label class="form-label">Teléfono</label>
                             <input type="number" name="telefono" id="telefono" class="form-control" required />
@@ -102,4 +102,4 @@
         </div>
     </div>
 
-    <!-- Desarrollador por: https://lautaromdelgado.alwaysdata.net/ (Lautaro Delgado) -->
+    <!-- Desarrollador por: https://www.linkedin.com/in/lautaromdelgado/ (Lautaro Delgado) -->
